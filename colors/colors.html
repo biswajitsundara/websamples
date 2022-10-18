@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Palette</title>
+  </head>
+
+  <style>
+    body {
+      padding: 7%;
+    }
+  </style>
+
+  <body>
+    <script>
+      colors = [
+        "#13B6CF",
+        "#36A2EB",
+        "#ed7c76",
+        "#E85D88",
+        "#854E9B",
+        "#6E8598",
+        "#5A68AD",
+        "#cfcfbc",
+        "#224651",
+        "#583660",
+        "#F5DEB3", //wheat, yellow
+        "#8c4548",
+        "#36454f",
+        "#45B08C", //spearmint, green
+        "#C5A1AF", //Lily light brown
+        "#8C92AC",
+        "#483C32",
+        "#FFA07A",
+        "#F4A460",
+        "#DB7093",
+        "#F7CAC9",
+        "#5f9ea0",
+        "#008080",
+        "#4682B4",
+        "#8D918D",
+        "#614051",
+        "#b76e79",
+        "#C54B8C",
+        "#bcb88a",
+        "#b3cee5",
+        "#91A092",
+        "#405580",
+        "#89CFF0",
+        "#FDBCB4",
+        "#E3A869",
+        "#0492C2",
+      ];
+
+      for (i = 0; i < colors.length; i++) {
+        const elem = document.createElement("div");
+        elem.style.padding = "50px";
+        elem.style.width = "200px";
+        elem.style.margin = "2px";
+        elem.style.display = "inline-block";
+        elem.style.backgroundColor = colors[i];
+        elem.innerText = `${i} ${colors[i]}`;
+        document.body.appendChild(elem);
+      }
+    </script>
+  </body>
+</html>
+
+<!-- https://create.vista.com/colors/color-names/?pageNumber=6 -->
+<!-- https://www.color-hex.com/ -->
+<!-- https://www.color-meanings.com/list-of-colors-names-hex-codes/ -->
