@@ -1,0 +1,48 @@
+.flex-container1 {
+    display: flex;
+    align-items: flex-start;
+    background-color: DodgerBlue;
+    gap: 5%;
+    height: 500px;
+  }
+
+  .flex-container2 {
+    display: flex;
+    align-items: flex-end;
+    background-color: DodgerBlue;
+    gap: 5%;
+    height: 500px;
+  }
+
+  .flex-container3 {
+    display: flex;
+    align-items: center;
+    background-color: DodgerBlue;
+    gap: 5%;
+    height: 500px;
+  }
+
+  .flex-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: DodgerBlue;
+    gap: 5%;
+    height: 500px;
+  }
+
+  .flex-container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: DodgerBlue;
+    gap: 5%;
+    height: 500px;
+  }
+  
+  .flex-item {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
