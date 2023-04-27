@@ -1,0 +1,45 @@
+
+  /* Set font family and size for the table */
+  table {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Set background color for the table header row */
+th {
+  background-color: #ddd;
+}
+
+/* Set background color for every other row in the table */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Set padding and border for all table cells */
+td,
+th {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+/* Set text color and font weight for "Pending" job status */
+.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Set text color and font weight for "Failed" job status */
+.failed {
+  color: red;
+  font-weight: bold;
+}
+
+table{
+    width: 80%;
+    padding: 20px;
+}
