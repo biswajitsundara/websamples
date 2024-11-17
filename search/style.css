@@ -1,0 +1,69 @@
+.container {
+  padding: 5%;
+}
+input[type="text"] {
+  padding: 12px;
+  font-size: 24px;
+  border-radius: 7px;
+  border: none;
+  color: #8d938c;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="submit"] {
+  float: left;
+  background: url(https://www.wikihow.com/extensions/wikihow/homepage/images/mag.png)
+    no-repeat;
+  width: 27px;
+  height: 100px;
+
+  margin: 7px 0 0 7px;
+  margin-top: 10px;
+  border-radius: 0;
+  background-size: 27px;
+  border: 0;
+}
+
+.search {
+  border: 3px solid #94b777;
+  border-radius: 7px;
+  width: 50%;
+}
+
+.search-results {
+  margin-top: -40px;
+  width: 50%;
+  margin-left: 80px;
+}
+a {
+  color: #5072a7;
+  text-decoration: none;
+}
+h3 {
+  font-family: arial, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+.preview-text {
+  color: #4d5156;
+
+  line-height: 1.58;
+  text-align: left;
+  margin-top: -3%;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+.search-content {
+  border: 1px solid #dadce0;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0 0 16px 0;
+
+  margin-top: -150px;
+  margin-right: 80px;
+  width: 40%;
+  float: right;
+  height: 500px;
+  padding-left: 20px;
+}

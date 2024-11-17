@@ -12,6 +12,7 @@
   background-color: #456d96;
   justify-content: space-between;
   flex-direction: row;
+  overflow-x: auto;
 }
 
 .logo {
@@ -28,7 +29,7 @@
 }
 
 .menubar a {
-  margin-right: 10px;
+  margin-right: 20px;
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -41,3 +42,11 @@
   border-radius: 5px;
   font-size: 17px;
 }
+
+
+
+
+
+
+
+

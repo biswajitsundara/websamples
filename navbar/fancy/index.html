@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      header {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin: 0;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .logo a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .menu-toggle {
+        display: none;
+        cursor: pointer;
+      }
+
+      .menu-toggle span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background-color: #fff;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .menu li {
+        list-style: none;
+        margin: 0 10px;
+      }
+
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .menu-toggle {
+          display: block;
+        }
+        .menu {
+          display: none;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #333;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          padding: 20px 0;
+          margin: 0;
+        }
+        .menu li {
+          margin: 10px 0;
+        }
+        .menu-toggle:checked ~ .menu {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">Logo</a>
+        </div>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
